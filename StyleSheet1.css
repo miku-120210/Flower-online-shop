@@ -1,0 +1,173 @@
+﻿@charset "UTF-8";
+body{
+	font-family: "游ゴシック","游ゴシック体","ヒラギノ角ゴシック";
+}
+/* page ceentering */
+#main{
+	width:1000px;
+	margin:0 auto;
+}
+
+/* reset */
+h1,h2,h3,ul,li,p{
+	margin:0;
+	padding:0;
+}
+/* navigation */
+nav{
+	padding-left:0px;
+	padding-right:0px;
+	display:flow-root;
+}
+nav ul{list-style-type:none;}
+
+nav li{
+	width:248px;
+	height:60px;
+	float:left;
+	margin:0px 1px 10px 0px;
+}
+nav a{
+	display:block;
+	line-height:60px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	background-color:#debbc4;
+}
+
+/*ranking*/
+#rank{
+	text-align:center;
+	background-image:url(img/ribbon.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:100px 0px 0px 0px;
+	height:88px;
+	line-height:100px;
+	font-size:30px;
+	color:#6d7f6f;
+}
+#ranking{
+	clear:both;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+.flower{
+	text-align:center;
+	font-size:15px;
+	width:312px;
+	margin:10px 9px 20px 9px;
+	float:left;
+}
+.more{
+	font-size:20px;
+	color:#797075;
+	text-decoration:none;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	width:150px;
+	height:50px;
+	border-radius:10px;
+	border:solid 3px #a0baa3;
+	background-color:white;
+	float:right;
+	margin:0px 0px 50px 0px;
+}
+
+.rank12{
+	width:385px;
+	font-size:18px;
+	margin:5px 57.5px;
+	float:left;
+}
+
+#rank1{
+	font-size:20px;
+}
+.rankhead{
+	
+	font-size:30px;
+	text-align:center;
+}
+
+
+/* list */
+
+/* shop */
+hr.access{
+	border:0;
+	border-bottom:1px dashed #734E30;
+	width:500px;
+	margin-left:0px;
+}
+hr.info{
+	margin-left:0px;
+	margin-top:25px;
+	margin-bottom:25px;
+	border:0;
+	border-bottom:1px dashed #734E30;
+}
+.address{
+	margin-left:10px;
+	margin-bottom:3px;
+}
+.head{
+	margin-left:10px;
+	font-size:18px;
+	font-weight:550;
+}
+#toiawase{
+	text-align:center;
+	margin-top:50px;
+}
+.button{
+	text-align:center;
+	margin-bottom:5px;
+}
+
+/* footer */
+#footer{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	background-color:#debbc4;
+	color:white;
+}
+.slider{
+	margin:0px 5px;
+}
+#pagetop{
+	width:70px;
+	height:70px;
+	position:fixed;
+	right:0;
+	bottom:0;
+	background:brown;
+	opacity:0.6;
+}
+#pagetop a{
+	position:relative;
+	display:block;
+	width:70px;
+	height:70px;
+	text-decoration:none;
+}
+#pagetop a::before{
+	font-family:'Font Awesome 5 Free';
+	font-weight:900;
+	content:'\f102';
+	font-size:30px;
+	color:white;
+	position:absolute;
+	width:25px;
+	height:25px;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+	text-align:center;
+}
